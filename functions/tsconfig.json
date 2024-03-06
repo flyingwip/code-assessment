@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noUnusedLocals": true,
+    "outDir": "build",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2019",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "typeRoots": ["./typings", "./node_modules/@types"],
+    "resolveJsonModule": true
+  },
+  "include": ["./src/index.js", "./src/**/*"],
+  "exclude": ["./build/*", "./keys/*", "./typings"]
+}

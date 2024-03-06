@@ -1,0 +1,10 @@
+# Compiled JavaScript files
+build/
+**/*.js
+**/*.js.map
+
+# Node.js dependency directory
+node_modules/
+
+# VSCode files
+.vscode
